@@ -18,7 +18,7 @@ const Contact = () => {
         Get In <span>Touch</span>
       </h2>
 
-      <div className="container__container container grid">
+      <div className="contact__container container grid">
         <div className="contact__data">
           <h3 className="contact__title">
             Don{"'"}t be Shy !
@@ -35,7 +35,7 @@ const Contact = () => {
               
               <div>
                 <span className='info__title'>Mail me</span>
-                <span className='info__desc'>jeeva2434@gmail.com</span>  
+                <h4 className='info__desc'>jeeva2434@gmail.com</h4>  
               </div> 
             </div> 
 
@@ -44,7 +44,7 @@ const Contact = () => {
               
               <div>
                 <span className='info__title'>Call me</span>
-                <span className='info__desc'>9876543210</span>  
+                <h4 className='info__desc'>9876543210</h4>  
               </div> 
             </div>  
           </div>
@@ -58,7 +58,7 @@ const Contact = () => {
         </div>  
 
         <form className='contact_form'>
-          <div className="form_input-group">
+          <div className="form__input-group">
             <div className="form__input-div">
               <input type='text' placeholder='Your Name'
               className='form__control'/>
