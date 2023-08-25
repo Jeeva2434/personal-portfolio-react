@@ -7,7 +7,7 @@
 
 .home__img{
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 30px;
     box-shadow: 0 0 8px hsla(0,0%,0%,0.4);
     z-index: 1;

@@ -90,7 +90,7 @@
     }
 
     .section{
-        padding-block: 50px;
+        padding: 50px;
     }
 
     .section__title{
@@ -152,6 +152,7 @@
         height: 270px;
         border-radius: 50%;
         margin-top: auto;
+        object-fit: cover;
     }
 
     .home__content{
